@@ -1,6 +1,6 @@
 # muhimat_app
 
-A new Flutter project.
+Muhimaat is a powerful yet simple to-do app designed to help you stay organized and productive. Whether you're managing daily tasks, work projects, or personal goals, Muhimaat makes it easy to plan, track, and complete your tasks efficiently.
 
 ## Getting Started
 
