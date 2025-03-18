@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:muhimat_app/widgets/custom_bottom_navigation_bar.dart';
 import 'package:muhimat_app/widgets/custom_text.dart';
+import 'package:muhimat_app/widgets/new_tasks.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -15,6 +16,7 @@ class HomeScreen extends StatelessWidget {
       ),
 
       bottomNavigationBar: CustomBottomNavigationBar(),
+      body: NewTasks(),
     );
   }
 }
