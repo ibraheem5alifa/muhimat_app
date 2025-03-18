@@ -6,12 +6,12 @@ class CustomText extends StatelessWidget {
     required this.txt,
     this.fontWeight = FontWeight.bold,
     this.fontsize = 20,
-    this.color = Colors.black,
+    this.color,
   });
   final String txt;
   final FontWeight fontWeight;
   final double fontsize;
-  final Color color;
+  final Color? color;
 
   @override
   Widget build(BuildContext context) {

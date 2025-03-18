@@ -17,7 +17,7 @@ class MuhimatApp extends StatelessWidget {
     return BlocProvider(
       create: (context) => LayoutCubit(),
       child: MaterialApp(
-        // theme: ThemeData(brightness: Brightness.dark),
+        theme: ThemeData(brightness: Brightness.dark),
         debugShowCheckedModeBanner: false,
         home: HomeScreen(),
       ),
