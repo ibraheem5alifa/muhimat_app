@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:muhimat_app/widgets/colors_list_add_note.dart';
+import 'package:muhimat_app/widgets/colors_list_add_task.dart';
 import 'package:muhimat_app/widgets/custom_text.dart';
 import 'package:muhimat_app/widgets/custom_text_field.dart';
 
@@ -39,7 +39,7 @@ class CustomBottomSheet extends StatelessWidget {
                   CustomText(txt: 'Pick a color for this task'),
                 ],
               ),
-              ColorsListForAddNote(),
+              ColorsListForAddTask(),
             ],
           ),
         ],
