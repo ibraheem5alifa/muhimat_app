@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:muhimat_app/widgets/colors_list_add_note.dart';
 import 'package:muhimat_app/widgets/custom_text.dart';
 import 'package:muhimat_app/widgets/custom_text_field.dart';
 
@@ -42,31 +43,6 @@ class CustomBottomSheet extends StatelessWidget {
             ],
           ),
         ],
-      ),
-    );
-  }
-}
-
-class ColorItem extends StatelessWidget {
-  const ColorItem({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return CircleAvatar(radius: 30, backgroundColor: Colors.white);
-  }
-}
-
-class ColorsListForAddNote extends StatelessWidget {
-  const ColorsListForAddNote({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return SizedBox(
-      height: 30 * 2,
-      child: ListView.builder(
-        scrollDirection: Axis.horizontal,
-        itemBuilder: (context, index) => ColorItem(),
-        itemCount: 5,
       ),
     );
   }

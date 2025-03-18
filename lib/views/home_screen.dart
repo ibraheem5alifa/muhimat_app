@@ -32,11 +32,10 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
             ),
             floatingActionButton: FloatingActionButton(
-              backgroundColor: kPrimaryColor,
-
+              backgroundColor: kSecondryColor,
+              child: Icon(Icons.edit),
               onPressed: () {
                 scaffoldKey.currentState!.showBottomSheet(
-                  // backgroundColor: Colors.black,
                   (context) => CustomBottomSheet(),
                 );
               },
@@ -47,6 +46,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 cubit.changeLayout();
               },
               currentIndex: context.read<LayoutCubit>().currentIndex,
+              selectedItemColor: kSecondryColor,
               items: [
                 BottomNavigationBarItem(
                   icon: Icon(Icons.add_task_rounded),
