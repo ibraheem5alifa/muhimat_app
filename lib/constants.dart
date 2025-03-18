@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 const Color kPrimaryColor = Color(0xffffffff);
 const Color kSecondryColor = Color(0xffff758f);
-
+const String kTasksBox = 'tasks_Box';
 List<Color> kColors = const [
   Color(0xff250902),
   Color(0xff38040e),
